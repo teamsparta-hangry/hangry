@@ -1,5 +1,5 @@
 server:
-  port: 19093
+  port: 19097
 
 spring:
   application:
@@ -23,3 +23,7 @@ spring:
         naming:
           physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
 
+
+slack:
+  webhook:
+    url: "https://hooks.slack.com/services/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"
